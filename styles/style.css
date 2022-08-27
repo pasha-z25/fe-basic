@@ -3,94 +3,15 @@
   padding: 0;
 }
 
-p.default-text {
-  color: purple;
-  margin-top: 100px;
-}
-h1 {
-}
 img {
+  max-width: 100%;
 }
 
-#mainTitle {
-  color: white;
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
-.default-text {
-  color: lightcoral;
-}
-
-input[required] {
-  border-color: red;
-}
-
-.default-text.custom-text {
-  color: yellow;
-}
-
-p span {
-  color: red;
-}
-
-div > span {
-  color: green;
-}
-
-p + span {
-  color: aqua;
-}
-
-.wrap {
-  /* padding: 50px; */
-  /* margin: 50px; */
-  /* background-color: aquamarine; */
-  /* padding-top: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px; */
-
-  /* padding: 25px 25px 25px 25px; */
-
-  /* padding: 25px 50px 25px 50px; */
-  padding: 25px 50px;
-
-  /* padding: 10px 70px 25px 100px; */
-
-  /* margin-top: 50px; */
-
-  margin: 25px;
-
-  /* border-width: 1px;
-  border-style: solid;
-  border-color: red; */
-
-  border: 1px solid red;
-  border-radius: 15px;
-  box-shadow: 0 0 20px 20px rgba(255, 0, 0, 0.5);
-
-  /* RGBa - Red Green Blue alpha */
-
-  /* color: red; */
-  color: #ff0000; /* HEX */
-  color: rgba(255, 0, 0, 0.2); /* RGBA */
-
-  color: #ff0000ff;
-  color: rgb(255, 0, 0); /* RGB */
-
-  opacity: 0.15;
-  opacity: 15%;
-
-  color: #f00;
-
-  color: #fff;
-  color: #000;
-
-  /* border-color: green; */
-}
-li + li {
-  margin-top: 20px;
-}
-
-/* * + * {
-  margin-top: 50px;
-} */
