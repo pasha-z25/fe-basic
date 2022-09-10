@@ -16,6 +16,14 @@ html {
   color: #303030;
 }
 
+body {
+  /* background-color: #ccc; */
+}
+
+.hidden {
+  display: none;
+}
+
 .container {
   width: 100%;
   max-width: 1140px;
@@ -23,4 +31,69 @@ html {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.card {
+  display: inline-block;
+  width: 100%;
+  max-width: 330px;
+  padding: 0.5rem 1rem 1rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid #eee;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.card .picture {
+  aspect-ratio: 5/3;
+  object-fit: cover;
+  object-position: center;
+}
+.card .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.card .description {
+  font-size: 14px;
+  color: #454545;
+}
+
+.wrapper {
+  overflow: hidden;
+  aspect-ratio: 5/3;
+  /* background-image: url('../images/Zugpsitze_mountain.jpg'); */
+  /* background-image: url('../images/Nature_LOcom.jpg'); */
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-color: #ccc; */
+  /* color: #fff;
+  padding: 350px 100px 100px; */
+  /* background: #ccc url('../images/Zugpsitze_mountain.jpg') no-repeat
+    center/cover; */
+  /* background: linear-gradient(45deg, green 10%, red 25%, blue 45%); */
+  /* background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  position: relative; */
+  background-color: #ccc;
+  background-image: url('../images/Zugpsitze_mountain.jpg'),
+    url('../images/Nature_LOcom.jpg'), url('../images/1913623.jpeg'),
+    url('../images/nature-wallpaper-07.jpg');
+  background-position: top left, top right, right bottom, left bottom;
+  background-size: 400px 200px;
+  background-repeat: no-repeat;
+}
+
+.wrapper .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(rgba(150, 0, 0, 0.5), rgba(255, 255, 255, 0));
+  box-shadow: 0 0 50px rgba(150, 0, 0, 0.3);
+  position: absolute;
+  top: -100px;
+  right: -100px;
 }
